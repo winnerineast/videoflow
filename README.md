@@ -5,13 +5,13 @@
 [![Build Status](https://travis-ci.org/videoflow/videoflow.svg?branch=master)](https://travis-ci.org/videoflow/videoflow)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/videoflow/videoflow/blob/master/LICENSE)
 
-**Videoflow** is a Python framework for video stream processing. The library is designed to facilitate easy and quick definition of computer vision stream processing applications. It empowers developers to build applications and systems with self-contained Deep Learning and Computer Vision capabilities using simple and few lines of code.  It contains off-the-shelf components for object detection, object tracking, human pose estimation, etc, and it is easily extensible.
+**Videoflow** is a Python framework for video stream processing. The library is designed to facilitate easy and quick definition of computer vision stream processing applications. It empowers developers to build applications and systems with self-contained Deep Learning and Computer Vision capabilities using simple and few lines of code.  It contains off-the-shelf components for object detection, object tracking, human pose estimation, etc, and it is easy to extend with your own.
 
 The complete documentation to the project is located in [**Read the docs.**](https://videoflow.readthedocs.io)
 
 [1.2]: http://i.imgur.com/wWzX9uB.png
 [1]: http://www.twitter.com/videoflow_py
-Follow us on [![alt text][1.2]][1]
+<!--Follow us on [![alt text][1.2]][1]-->
 
 ## Installing the framework
 ### Requirements
@@ -30,7 +30,7 @@ Python 2 is **NOT SUPPORTED**.  Requires Python 3.6+
 ## Sample Videoflow application:
 Below a sample videoflow application that detects automobiles in an intersection. For more examples see the [examples](examples/) folder.
 
-```
+```python
 import videoflow
 import videoflow.core.flow as flow
 from videoflow.core.constants import BATCH
